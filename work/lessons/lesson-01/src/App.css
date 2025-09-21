@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.input {
+  flex: 1;                /* 占据剩余空间 */
+  padding: 8px 10px;      /* 内边距：上下 8, 左右 10 */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;          /* 去掉聚焦时的外边框（可配合 box-shadow 自定义） */
+}
